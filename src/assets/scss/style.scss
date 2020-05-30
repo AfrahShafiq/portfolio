@@ -11,12 +11,14 @@
 	min-height: calc(100vh - 60px - 81px);
 }
 .site-header {
-  display: flex;
+	display: flex;
+	max-width: 1240px;
   justify-content: space-between;
   align-items: center;
   position: relative;
   background: var(--header-bg);
-  padding: 30px 20px;
+	padding: 30px 20px;
+	margin: auto;
 }
 .site-navigation {
   ul {
@@ -29,14 +31,14 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255,255,255,0.6);
+    color: rgb(240, 75, 171);
     text-decoration: none;
     &:hover {
-      color: rgba(255,255,255,0.8);
+      color: rgba(240, 75, 171, 0.8);
     }
   }
   a[aria-current="page"] {
-    color: rgba(255,255,255,1)
+    color: rgb(250, 27, 157)
   }
   .menu-trigger {
     display: none;
@@ -100,7 +102,7 @@
 .site-logo {
   font-weight: bold;
   a {
-    color: #fff;
+    color: rgb(240, 75, 171);
 		text-decoration: none;
 		&:hover {
 			color: #fff;
@@ -145,16 +147,19 @@
 		padding-bottom: 30px;
 	}
 	padding-bottom: 100px;
+	padding-top: 50px;
+}
+.topBG {
+	height: 20vh;
+	background-image: url(../img/tileHome.gif);;
 }
 .post-card {
-	padding: 16px;
+	//padding: 16px;
 	border: 1px solid rgba(0,0,0,0.08);
 	background-color:#fff;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05);
-	border-radius: 12px;
 	transition: box-shadow .3s linear;
 	.featured-image {
-		border-radius: 12px;
 		img {
 			display: block;
 			margin: 0;

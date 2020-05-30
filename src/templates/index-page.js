@@ -41,7 +41,7 @@ const HomePage = ({ data }) => {
 	return (
 		<Layout>
       <SEO/>
-      <div className="home-banner grids col-1 sm-2">
+      {/* <div className="home-banner grids col-1 sm-2">
         <div>
           <h1 class="title">{frontmatter.title}</h1>
           <p class="tagline">{frontmatter.tagline}</p>
@@ -57,7 +57,7 @@ const HomePage = ({ data }) => {
             />
           ) : ""}
         </div>
-      </div>
+      </div> */}
       <BlogListHome/>
 		</Layout>
 	)

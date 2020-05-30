@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Afrah Shafiq",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
+    "description": "Personal portfolio.",
+    "siteUrl": "https://www.afrahshafiq.com",
     "image": "/assets/stackrole.png",
     "twitterUsername": "@stackrole"
   },
