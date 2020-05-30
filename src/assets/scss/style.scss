@@ -10,6 +10,7 @@
 .primary-container main {
 	min-height: calc(100vh - 60px - 81px);
 }
+
 .site-header {
 	display: flex;
 	max-width: 1240px;
@@ -105,7 +106,7 @@
     color: rgb(240, 75, 171);
 		text-decoration: none;
 		&:hover {
-			color: #fff;
+			color: rgb(243, 16, 148);
 		}
   }
   @media (max-width: $breakpoint-lg) {
@@ -164,6 +165,10 @@
 			display: block;
 			margin: 0;
 		}
+	}
+	.gatsby-image-wrapper {
+		height: 100%;
+		padding-top: 25%;
 	}
 	.title {
 		margin: 0 0 3px;

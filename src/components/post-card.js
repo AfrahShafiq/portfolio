@@ -12,7 +12,6 @@ const PostCard = ({ data }) => (
             objectFit="cover"
             objectPosition="50% 50%"
             alt={data.frontmatter.title + ' - Featured image'}
-            className="featured-image"
           />
         </Link>
       ) : ""
