@@ -4,16 +4,8 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const MenuItems = [
   {
-    path: "/",
-    title: "Home"
-  },
-  {
     path: "/about",
     title: "About"
-  },
-  {
-    path: "/blog",
-    title: "Blog"
   },
   {
     path: "/contact",
@@ -49,6 +41,18 @@ class Navigation extends React.Component {
           <div className="icon-menu-close"><RiCloseLine/></div>
         </button>
         <ul>
+          <div class="dropdown">
+          <Link>// Work</Link>
+            <div class="dropdown-content">
+              <ul>
+                <li><Link to={'/art'}>Art</Link></li>
+                <li><Link to={'/cid'}>Comics | Illustrations | Design</Link></li>
+                <li><Link to={'/film'}>Film & Video</Link></li>
+                <li><Link to={'/workshops'}>Teachings & Workshop</Link></li>
+                <li><Link to={'/production'}>Production</Link></li>
+              </ul>
+            </div>
+          </div>
           {listMenuItems}
         </ul>
       </nav>

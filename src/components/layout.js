@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation";
-import TopBG from './topBG'
 
 import "../assets/scss/style.scss"
 import Footer from "./footer";
@@ -19,14 +18,14 @@ query LayoutQuery {
 }
 `
 
-const Layout = ({children, className}) => {
+const Layout = ({banner, children, className}) => {
 
   const { site } = useStaticQuery(query)
   const { siteTitle } = site.siteMetadata
 
   return (
     <div className="primary-container">
-      <TopBG />
+      <div className={banner}></div>
       <Header>
         <Logo title={siteTitle} />
         <Navigation/>
