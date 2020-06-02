@@ -1,5 +1,7 @@
 ---
 template: blog-post
+category: workshop
+home: false
 title: Plant on my desk is a friend
 slug: post-no-image
 date: 2020-05-11 08:40

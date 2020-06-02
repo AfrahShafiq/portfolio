@@ -1,5 +1,7 @@
 ---
 template: blog-post
+category: art
+home: true
 title: Character design
 slug: /character-design
 date: 2020-05-23 23:40

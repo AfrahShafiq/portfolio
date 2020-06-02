@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+import BlogListArt from "../components/blog-list-art"
 import SEO from "../components/seo"
 
 const ArtPage = () => {
@@ -8,7 +8,7 @@ const ArtPage = () => {
       <Layout banner="artBanner">
         <SEO/>
         <p>This is home page.</p>
-        <BlogListHome/>
+        <BlogListArt/>
       </Layout>
 	)
 }

@@ -1,5 +1,7 @@
 ---
 template: blog-post
+category: art
+home: true
 title: Desk for minimalists
 slug: minimalists-desk
 date: 2020-05-13 12:46

@@ -12,14 +12,14 @@ const PostMaker = ({ data }) => (
   </section>
 )
 
-export default function BlogListHome() {
+export default function BlogListWorkshop() {
   return (
     <StaticQuery 
       query={graphql`
         query {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { home: { eq: true } } }
+            filter: { frontmatter: { category: { eq: "workshop" } } }
             limit: 6
           ) {
             edges {

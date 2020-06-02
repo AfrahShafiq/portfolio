@@ -1,5 +1,7 @@
 ---
 template: blog-post
+category: cid
+home: true
 title: Extreme gaming extravaganza
 slug: /gaming-extravaganza
 date: 2020-05-13 12:55

@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+import BlogListCid from "../components/blog-list-cid"
 import SEO from "../components/seo"
 
 const CidPage = () => {
@@ -8,7 +8,7 @@ const CidPage = () => {
       <Layout banner="cidBanner">
         <SEO/>
         <p>This is cid page.</p>
-        <BlogListHome/>
+        <BlogListCid/>
       </Layout>
 	)
 }

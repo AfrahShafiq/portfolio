@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import BlogListHome from "../components/blog-list-home"
+import BlogListProduction from "../components/blog-list-production"
 import SEO from "../components/seo"
 
 const ProductionPage = () => {
@@ -8,7 +8,7 @@ const ProductionPage = () => {
       <Layout banner="productionBanner">
         <SEO/>
         <p>This is production page.</p>
-        <BlogListHome/>
+        <BlogListProduction/>
       </Layout>
 	)
 }
