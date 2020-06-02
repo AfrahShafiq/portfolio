@@ -20,7 +20,6 @@ export default function BlogListHome() {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { home: { eq: true } } }
-            limit: 6
           ) {
             edges {
               node {
@@ -37,6 +36,7 @@ export default function BlogListHome() {
                         ...GatsbyImageSharpFluidLimitPresentationSize
                       }
                     }
+                    publicURL
                   }
                 }
               }

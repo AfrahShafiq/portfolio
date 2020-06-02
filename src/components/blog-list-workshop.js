@@ -20,7 +20,6 @@ export default function BlogListWorkshop() {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { category: { eq: "workshop" } } }
-            limit: 6
           ) {
             edges {
               node {
@@ -37,6 +36,7 @@ export default function BlogListWorkshop() {
                         ...GatsbyImageSharpFluidLimitPresentationSize
                       }
                     }
+                    publicURL
                   }
                 }
               }

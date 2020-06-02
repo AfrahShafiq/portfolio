@@ -20,7 +20,6 @@ export default function BlogListFilm() {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { category: { eq: "film" } } }
-            limit: 6
           ) {
             edges {
               node {
@@ -37,6 +36,7 @@ export default function BlogListFilm() {
                         ...GatsbyImageSharpFluidLimitPresentationSize
                       }
                     }
+                    publicURL
                   }
                 }
               }

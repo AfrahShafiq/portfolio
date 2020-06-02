@@ -20,7 +20,6 @@ export default function BlogListCid() {
           allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
             filter: { frontmatter: { category: { eq: "cid" } } }
-            limit: 6
           ) {
             edges {
               node {
@@ -37,6 +36,7 @@ export default function BlogListCid() {
                         ...GatsbyImageSharpFluidLimitPresentationSize
                       }
                     }
+                    publicURL
                   }
                 }
               }
