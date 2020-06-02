@@ -74,6 +74,8 @@ const Post = ({ data, pageContext }) => {
                 <img
                   src={frontmatter.featuredImage.publicURL} 
                   alt={frontmatter.title + ' - Featured image'}
+                  objectFit="cover"
+                  objectPosition="50% 50%"
                 />
           }
         </header>

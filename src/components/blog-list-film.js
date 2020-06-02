@@ -31,7 +31,7 @@ export default function BlogListFilm() {
                   title
                   featuredImage {
                     childImageSharp {
-                      fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
+                      fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
                         ...GatsbyImageSharpFluid
                         ...GatsbyImageSharpFluidLimitPresentationSize
                       }

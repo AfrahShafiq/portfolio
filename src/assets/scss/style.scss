@@ -200,15 +200,13 @@
 	background-color:#fff;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.05);
 	transition: box-shadow .3s linear;
+	height: 0;
+	padding-bottom: calc(436/500 *100%);
 	.featured-image {
 		img {
 			display: block;
 			margin: 0;
 		}
-	}
-	.gatsby-image-wrapper {
-		height: 100%;
-		padding-top: 25%;
 	}
 	.title {
 		margin: 0 0 3px;
