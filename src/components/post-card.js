@@ -27,8 +27,6 @@ const PostCard = ({ data }) => (
       ) : <Link to={data.frontmatter.slug}>
           <img
             src={data.frontmatter.featuredImage.publicURL} 
-            objectFit="cover"
-            objectPosition="50% 50%"
             alt={data.frontmatter.title + ' - Featured image'}
           />
         </Link>

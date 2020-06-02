@@ -32,7 +32,6 @@ const Pagination = (props) => (
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
   const { previous, next } = pageContext
 
   let props = {
@@ -45,7 +44,7 @@ const Post = ({ data, pageContext }) => {
       <SEO
         title={frontmatter.title}
         description={frontmatter.description ? frontmatter.description : excerpt}
-        image={Image}
+        image={frontmatter.featuredImage.childImageSharp}
         article={true}
       />
       <article className="blog-post">
@@ -54,7 +53,7 @@ const Post = ({ data, pageContext }) => {
             <h1>{frontmatter.title}</h1>
             <time>{frontmatter.date}</time>
           </section>
-          {Image ? (
+          {/* {Image ? (
             <Img 
               fluid={Image} 
               objectFit="cover"
@@ -62,7 +61,21 @@ const Post = ({ data, pageContext }) => {
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
-          ) : ""}
+          ) : ""} */}
+          {!!frontmatter.featuredImage && !!frontmatter.featuredImage.childImageSharp ? 
+            (
+                <Img 
+                  fluid={frontmatter.featuredImage.childImageSharp.fluid} 
+                  objectFit="cover"
+                  objectPosition="50% 50%"
+                  alt={frontmatter.title + ' - Featured image'}
+                />
+            ) : 
+                <img
+                  src={frontmatter.featuredImage.publicURL} 
+                  alt={frontmatter.title + ' - Featured image'}
+                />
+          }
         </header>
         
         <div
@@ -102,6 +115,7 @@ export const pageQuery = graphql`
               src
             }
           }
+          publicURL
         }
       }
     }
