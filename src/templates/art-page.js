@@ -21,6 +21,7 @@ const ArtPage = ({data}) => {
 	return (
       <Layout banner="artBanner">
         <SEO/>
+        <h1 className='crux'>ART</h1>
         <article dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         <BlogListArt/>
       </Layout>

@@ -21,6 +21,7 @@ const CidPage = ( {data} ) => {
 	return (
       <Layout banner="cidBanner">
         <SEO/>
+        <h1 className='crux'>COMICS | ILLUSTRATIONS | DESIGN | ANIMATIONS</h1>
         <article dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         <BlogListCid/>
       </Layout>

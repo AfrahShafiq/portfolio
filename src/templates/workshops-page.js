@@ -21,6 +21,7 @@ const WorkshopsPage = ({data}) => {
 	return (
       <Layout banner="workshopsBanner">
         <SEO/>
+        <h1 className='crux'>TEACHING + WROKSHOPS</h1>
         <article dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         <BlogListWorkshop/>
       </Layout>

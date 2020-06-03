@@ -21,6 +21,7 @@ const FilmPage = ({data}) => {
 	return (
       <Layout banner="filmBanner">
         <SEO/>
+        <h1 className='crux'>FILM & VIDEO</h1>
         <article dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         <BlogListFilm/>
       </Layout>

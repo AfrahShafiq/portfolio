@@ -13,6 +13,8 @@
 
 .crux {
 	font-family: "Coder's Crux Regular", sans-serif;
+	font-size: 2rem;
+	color: rgb(240, 75, 171);
 }
 
 .site-header {
@@ -35,14 +37,14 @@
     margin-left: 20px;
   }
   a {
-    color: rgb(240, 75, 171);
+    color: #ddb2b2;
     text-decoration: none;
     &:hover {
       color: rgba(238, 175, 212, 0.8);
     }
   }
   a[aria-current="page"] {
-    color: rgb(250, 27, 157)
+    color: #ddb2b2;
   }
   .menu-trigger {
     display: none;
@@ -132,7 +134,7 @@
 .site-logo {
   font-weight: bold;
   a {
-    color: rgb(240, 75, 171);
+    color: #ddb2b2;
 		text-decoration: none;
 		&:hover {
 			color: rgb(243, 16, 148);
