@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Coder's Crux Regular";
+  font-size: 2rem;
+  src: local("Coder's Crux Regular"), url('coders_crux.woff') format('woff');
+}

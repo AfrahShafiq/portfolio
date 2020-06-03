@@ -11,6 +11,10 @@
 	min-height: calc(100vh - 60px - 81px);
 }
 
+.crux {
+	font-family: "Coder's Crux Regular", sans-serif;
+}
+
 .site-header {
 	display: flex;
 	max-width: 1240px;
@@ -34,7 +38,7 @@
     color: rgb(240, 75, 171);
     text-decoration: none;
     &:hover {
-      color: rgba(240, 75, 171, 0.8);
+      color: rgba(238, 175, 212, 0.8);
     }
   }
   a[aria-current="page"] {
@@ -53,6 +57,9 @@
 	.dropdown {
 		position: relative;
 		display: inline-block;
+		ul li {
+			margin: 10px;
+		}
 	}
 	
 	.dropdown-content {

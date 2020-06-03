@@ -35,7 +35,7 @@ class Navigation extends React.Component {
       <ListLink key={index} to={menuItem.path}>{menuItem.title}</ListLink>
     )
     return (
-      <nav className="site-navigation">
+      <nav className="site-navigation crux">
         <button onClick={this.handleToggleClick} className={"menu-trigger" + (this.state.showMenu ? " is-active" : "")}>
           <div className="icon-menu-line"><RiMenu3Line/></div>
           <div className="icon-menu-close"><RiCloseLine/></div>

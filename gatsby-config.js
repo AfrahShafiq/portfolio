@@ -29,6 +29,13 @@ module.exports = {
         name: `content`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "fonts",
+        path: `${__dirname}/src/fonts/`
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -89,5 +96,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Crux"],
+          urls: ["/fonts/fonts.css"],
+        },
+      },
+    },
   ],
 }
