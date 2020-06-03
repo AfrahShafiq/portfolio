@@ -7,7 +7,6 @@ const HomePage = () => {
 	return (
       <Layout banner="homeBanner">
         <SEO/>
-        <p>This is home page.</p>
         <BlogListHome/>
       </Layout>
 	)

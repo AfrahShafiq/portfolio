@@ -6,4 +6,4 @@ tagline: Graphic Designer
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 
 ---
-This is the film & video page.
+Commissioned non-fiction film & video work as editor and/or director.

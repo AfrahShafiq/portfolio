@@ -1,7 +1,7 @@
 ---
 template: about-page
 slug: /about
-title: About Foundation
+title: About Me
 ---
 This is the about page
 

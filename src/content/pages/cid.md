@@ -6,4 +6,4 @@ tagline: Graphic Designer
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 
 ---
-This is the CID page.
+Commissioned work for web, print, projection and live performance.
