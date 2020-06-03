@@ -5,7 +5,6 @@ import Img from "gatsby-image"
 const PostCard = ({ data }) => (
   <article className="post-card">
         {
-          console.log(data)
         /* {!!image && !!image.childImageSharp
           ? <Img fluid={image.childImageSharp.fluid}
                  alt={title}
@@ -13,10 +12,14 @@ const PostCard = ({ data }) => (
           : <img src={image.publicURL}
                  alt={title} 
            />
-        } */}
+        } */}             
+            
     {!!data.frontmatter.featuredImage && !!data.frontmatter.featuredImage.childImageSharp ? 
       (
         <Link to={data.frontmatter.slug}>
+                    <div class="overlay">
+            <div class="overlaytext">{data.frontmatter.title}</div>
+          </div> 
           <Img 
             fluid={data.frontmatter.featuredImage.childImageSharp.fluid} 
             objectFit="fill"
@@ -25,12 +28,16 @@ const PostCard = ({ data }) => (
           />
         </Link>
       ) : <Link to={data.frontmatter.slug}>
+          <div class="overlay">
+            <div class="overlaytext">{data.frontmatter.title}</div>
+          </div> 
           <img
             src={data.frontmatter.featuredImage.publicURL} 
             alt={data.frontmatter.title + ' - Featured image'}
             objectFit="fill"
             objectPosition="50% 50%"
           />
+
         </Link>
     }
     {/* <div class="post-content">
