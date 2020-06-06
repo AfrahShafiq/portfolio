@@ -30,13 +30,16 @@ export default function BlogListCid() {
                   slug
                   title
                   featuredImage {
-                    childImageSharp {
-                      fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
-                        ...GatsbyImageSharpFluid
-                        ...GatsbyImageSharpFluidLimitPresentationSize
+                    image {
+                      childImageSharp {
+                        fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
+                          ...GatsbyImageSharpFluid
+                          ...GatsbyImageSharpFluidLimitPresentationSize
+                        }
                       }
+                      publicURL
                     }
-                    publicURL
+                    caption
                   }
                 }
               }
@@ -49,7 +52,7 @@ export default function BlogListCid() {
           const posts = data.allMarkdownRemark.edges
             .filter(edge => !!edge.node.frontmatter.date)
             .map(edge =>
-              <PostCard key={edge.node.id} data={edge.node} />
+              <PostCard key={edge.node.id} data={edge.node} thumbnail={edge.node.frontmatter.featuredImage[0]} />
           )
           return <PostMaker data={posts} />
         } 

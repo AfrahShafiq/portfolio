@@ -6,6 +6,8 @@ home: false
 slug: /st_valentine
 date: 2020-06-02 20:00
 description: St Valentine - Design
-featuredImage: /assets/st-valentine-_-design.jpg
+featuredImage: 
+  - image: /assets/st-valentine-_-design.jpg
+    caption: St Valentine
 ---
 St Valentine - Design

@@ -73,6 +73,23 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
 }
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type fImage implements Node {
+      caption: String
+      image: File @fileByRelativePath
+    }
+    type Frontmatter {
+      featuredImage: [fImage]!
+    }
+  `
+  createTypes(typeDefs)
+}
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {

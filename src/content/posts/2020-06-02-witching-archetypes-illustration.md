@@ -6,6 +6,8 @@ home: true
 slug: /witching-archetypes
 date: 2020-06-01 21:28
 description: Witching Archetypes - Illustration
-featuredImage: /assets/witching-archetypes-_-illustration.jpg
+featuredImage: 
+  - image: /assets/witching-archetypes-_-illustration.jpg
+    caption: Witching Archetypes
 ---
 Witching Archetypes - Illustration

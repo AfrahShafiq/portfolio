@@ -6,6 +6,8 @@ home: false
 slug: /on-walking
 date: 2020-06-02 19:58
 description: On walking - Comic
-featuredImage: /assets/on-walking-_-comic.jpg
+featuredImage: 
+  - image: /assets/on-walking-_-comic.jpg
+    caption: On walking
 ---
 On walking - Comic

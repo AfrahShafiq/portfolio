@@ -3,7 +3,12 @@ template: blog-post
 slug: markdown
 date: 2020-05-09T05:53:16.102Z
 title: "Markdown: Syntax"
-featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
+featuredImage:
+  - image: /assets/a-boat-clinic-in-majuli-islands-_-editor.jpg
+    caption: Test 1
+  - image: /assets/a-book-is-a-door.jpg
+    caption: Test 2
+feature: /assets/a-book-is-a-door.jpg
 ---
 
 ## Overview

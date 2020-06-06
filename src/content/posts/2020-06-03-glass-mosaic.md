@@ -6,6 +6,8 @@ home: true
 slug: /glass-mosaic
 date: 2020-06-03 12:13
 description: Glass Mosaic
-featuredImage: /assets/glass-mosaic.gif
+featuredImage:
+  - image: /assets/glass-mosaic.gif
+    caption: Glass Mosaic
 ---
 Glass Mosaic

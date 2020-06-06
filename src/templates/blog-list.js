@@ -23,13 +23,17 @@ export const blogListQuery = graphql`
             slug
 						title
 						featuredImage {
-							childImageSharp {
-								fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
+              image {
+                childImageSharp {
+                  fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
+                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluidLimitPresentationSize
+                  }
                 }
-							}
-						}
+                publicURL
+              }
+              caption
+            }
           }
         }
       }
@@ -80,7 +84,7 @@ class BlogIndex extends React.Component {
     const posts = data.allMarkdownRemark.edges
       .filter(edge => !!edge.node.frontmatter.date)
       .map(edge =>
-        <PostCard key={edge.node.id} data={edge.node} />
+        <PostCard key={edge.node.id} data={edge.node} thumbnail={edge.node.frontmatter.featuredImage[0]} />
       )
     let props = {
       isFirst,

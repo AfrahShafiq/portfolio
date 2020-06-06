@@ -1,6 +1,5 @@
 import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
-import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
+import { StaticQuery, graphql } from "gatsby"
 
 import PostCard from "./post-card"
 
@@ -30,13 +29,16 @@ export default function BlogListHome() {
                   slug
                   title
                   featuredImage {
-                    childImageSharp {
-                      fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
-                        ...GatsbyImageSharpFluid
-                        ...GatsbyImageSharpFluidLimitPresentationSize
+                    image {
+                      childImageSharp {
+                        fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
+                          ...GatsbyImageSharpFluid
+                          ...GatsbyImageSharpFluidLimitPresentationSize
+                        }
                       }
+                      publicURL
                     }
-                    publicURL
+                    caption
                   }
                 }
               }
@@ -46,11 +48,38 @@ export default function BlogListHome() {
       }
 
       render={ data => {
-          const posts = data.allMarkdownRemark.edges
-            .filter(edge => !!edge.node.frontmatter.date)
-            .map(edge =>
-              <PostCard key={edge.node.id} data={edge.node} />
+          console.log(data)
+          let tempData = data.allMarkdownRemark.edges
+          console.log(tempData)
+          let tempPosts = []
+          tempData.forEach(edge => {
+            console.log(edge)
+            if(edge.node.frontmatter.featuredImage.length === 1)
+              tempPosts.push({
+                ...edge.node,
+                thumbnail : edge.node.frontmatter.featuredImage[0]
+              })
+            else 
+              {
+                edge.node.frontmatter.featuredImage.forEach((thumbnail) =>
+                  {
+                    tempPosts.push({
+                      ...edge.node,
+                      thumbnail : thumbnail
+                    })
+                  }
+                )
+              }
+          })
+          console.log(tempPosts)
+          const posts = tempPosts
+            .filter(node => !!  node.frontmatter.date)
+            .map(node => 
+              {
+                  return <PostCard key={node.id} data={node} thumbnail={node.thumbnail} />
+              }
           )
+          console.log(posts)
           return <PostMaker data={posts} />
         } 
       }

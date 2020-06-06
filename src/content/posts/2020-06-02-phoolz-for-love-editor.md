@@ -6,6 +6,8 @@ home: false
 slug: /phoolzforlove
 date: 2020-06-02 16:30
 description: "Phoolz for Love - Editor "
-featuredImage: /assets/phoolz-for-love-_-editor-.jpg
+featuredImage: 
+  - image: /assets/phoolz-for-love-_-editor-.jpg
+    caption: Phools for love
 ---
 Phoolz for Love - Editor

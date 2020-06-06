@@ -6,6 +6,8 @@ home: false
 slug: /titli
 date: 2020-06-02 16:25
 description: Cyclone Titli in Odisha - Editor
-featuredImage: /assets/cyclone-titli-in-odisha-_-editor.jpg
+featuredImage: 
+  - image: /assets/cyclone-titli-in-odisha-_-editor.jpg
+    caption: Cyclone Titli
 ---
 Cyclone Titli in Odisha - Editor

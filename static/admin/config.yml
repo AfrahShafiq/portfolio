@@ -37,14 +37,13 @@ collections:
           format: 'YYYY-MM-DD HH:mm',
         }
       - { label: 'SEO Description', name: 'description', widget: 'text' }
-      - {
-          label: 'Featured Image',
-          name: 'featuredImage',
-          widget: 'image',
-          required: false,
-          tagname: ''
-        }
-
+      - label: 'Image'
+        label_singular: "Image"
+        name: 'featuredImage'
+        widget: list
+        fields:
+          - { label: 'Caption (Will be shown on home page hover)', name: 'caption', widget: 'string'}
+          - { label: 'Image', name: 'image', widget: 'image'}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
   - label: "Pages"
     name: "pages"

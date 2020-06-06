@@ -2,9 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
 
-const PostCard = ({ data }) => (
+const PostCard = ({ data, thumbnail }) => (
   <article className="post-card">
         {
+          //console.log(thumbnail)
+          //console.log(data)
         /* {!!image && !!image.childImageSharp
           ? <Img fluid={image.childImageSharp.fluid}
                  alt={title}
@@ -14,14 +16,14 @@ const PostCard = ({ data }) => (
            />
         } */}             
             
-    {!!data.frontmatter.featuredImage && !!data.frontmatter.featuredImage.childImageSharp ? 
+    {!!thumbnail.image && !!thumbnail.image.childImageSharp ? 
       (
         <Link to={data.frontmatter.slug}>
                     <div class="overlay">
-            <div class="overlaytext">{data.frontmatter.title}</div>
+            <div class="overlaytext">{thumbnail.caption}</div>
           </div> 
           <Img 
-            fluid={data.frontmatter.featuredImage.childImageSharp.fluid} 
+            fluid={thumbnail.image.childImageSharp.fluid} 
             objectFit="fill"
             objectPosition="50% 50%"
             alt={data.frontmatter.title + ' - Featured image'}
@@ -29,10 +31,10 @@ const PostCard = ({ data }) => (
         </Link>
       ) : <Link to={data.frontmatter.slug}>
           <div class="overlay">
-            <div class="overlaytext">{data.frontmatter.title}</div>
+            <div class="overlaytext">{thumbnail.caption}</div>
           </div> 
           <img
-            src={data.frontmatter.featuredImage.publicURL} 
+            src={thumbnail.image.publicURL} 
             alt={data.frontmatter.title + ' - Featured image'}
             objectFit="fill"
             objectPosition="50% 50%"

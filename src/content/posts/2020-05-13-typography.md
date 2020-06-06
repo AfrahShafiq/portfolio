@@ -5,7 +5,8 @@ category: film
 home: false
 date: 2020-05-13 09:19
 slug: typography
-featuredImage: /assets/alexander-andrews-zw07kvdahpw-unsplash.jpg
+featuredImage: 
+  - image: /assets/a-boat-clinic-in-majuli-islands-_-editor.jpg
 description: metaphorically make a deal with the devil
 ---
 \# When will that be?\

@@ -65,14 +65,14 @@ const Post = ({ data, pageContext }) => {
           {!!frontmatter.featuredImage && !!frontmatter.featuredImage.childImageSharp ? 
             (
                 <Img 
-                  fluid={frontmatter.featuredImage.childImageSharp.fluid} 
+                  fluid={frontmatter.featuredImage[0].childImageSharp.fluid} 
                   objectFit="cover"
                   objectPosition="50% 50%"
                   alt={frontmatter.title + ' - Featured image'}
                 />
             ) : 
                 <img
-                  src={frontmatter.featuredImage.publicURL} 
+                  src={frontmatter.featuredImage[0].publicURL} 
                   alt={frontmatter.title + ' - Featured image'}
                   objectFit="cover"
                   objectPosition="50% 50%"
@@ -108,16 +108,16 @@ export const pageQuery = graphql`
         title
         description
         featuredImage {
-          childImageSharp {
-            fluid(maxWidth: 1980, maxHeight: 768, quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {
-              ...GatsbyImageSharpFluid
-              ...GatsbyImageSharpFluidLimitPresentationSize
+          image {
+            childImageSharp {
+              fluid(maxWidth: 500, maxHeight: 436, quality: 80) {
+                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluidLimitPresentationSize
+              }
             }
-            sizes {
-              src
-            }
+            publicURL
           }
-          publicURL
+          caption
         }
       }
     }
