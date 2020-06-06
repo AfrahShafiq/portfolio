@@ -97,13 +97,12 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     {
-      resolve: "gatsby-plugin-web-font-loader",
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        custom: {
-          families: ["Crux"],
-          urls: ["/fonts/fonts.css"],
-        },
-      },
+        google: {
+          families: ['Aldrich']
+        }
+      }
     },
   ],
 }

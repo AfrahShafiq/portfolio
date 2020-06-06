@@ -12,9 +12,11 @@
 }
 
 .crux {
-	font-family: "Coder's Crux Regular", sans-serif;
-	font-size: 2rem;
-	color: rgb(240, 75, 171);
+	color: #ddb2b2;
+}
+
+body {
+	font-family: "Aldrich", sans-serif;
 }
 
 .site-header {
@@ -51,7 +53,7 @@
     font-size: 24px;
     background: none;
     border: none;
-    color:  rgba(240, 75, 171, 0.8);
+    color:  rgba(238, 175, 212, 0.8);
     padding: 0;
     cursor: pointer;
 	}
@@ -137,7 +139,7 @@
     color: #ddb2b2;
 		text-decoration: none;
 		&:hover {
-			color: rgb(243, 16, 148);
+			color: rgba(238, 175, 212, 0.8);
 		}
   }
   @media (max-width: $breakpoint-lg) {
