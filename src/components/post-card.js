@@ -19,8 +19,12 @@ const PostCard = ({ data, thumbnail }) => (
     {!!thumbnail.image && !!thumbnail.image.childImageSharp ? 
       (
         <Link to={data.frontmatter.slug}>
-                    <div class="overlay">
-            <div class="overlaytext">{thumbnail.caption}</div>
+          <div class="overlay">
+            <div class="overlaytext">
+              {thumbnail.caption}
+              <br/>
+              {thumbnail.subcaption ? thumbnail.subcaption : null}
+            </div>
           </div> 
           <Img 
             fluid={thumbnail.image.childImageSharp.fluid} 
@@ -31,7 +35,11 @@ const PostCard = ({ data, thumbnail }) => (
         </Link>
       ) : <Link to={data.frontmatter.slug}>
           <div class="overlay">
-            <div class="overlaytext">{thumbnail.caption}</div>
+            <div class="overlaytext">
+              {thumbnail.caption}
+              <br/>
+              {thumbnail.subcaption ? thumbnail.subcaption : null}
+            </div>
           </div> 
           <img
             src={thumbnail.image.publicURL} 

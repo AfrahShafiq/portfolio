@@ -40,6 +40,7 @@ export default function BlogListCid() {
                       publicURL
                     }
                     caption
+                    subcaption
                   }
                 }
               }

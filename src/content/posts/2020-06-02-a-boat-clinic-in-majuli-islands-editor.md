@@ -10,5 +10,6 @@ featuredImage:
   - Image: /assets/a-boat-clinic-in-majuli-islands-_-editor.jpg
     caption: A boat clinic
     image: /assets/a-boat-clinic-in-majuli-islands-_-editor.jpg
+    subcaption: FILM
 ---
 A boat clinic in Majuli Islands  - Editor

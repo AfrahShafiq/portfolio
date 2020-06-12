@@ -81,6 +81,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
     type fImage implements Node {
       caption: String
+      subcaption: String
       image: File @fileByRelativePath
     }
     type Frontmatter {
