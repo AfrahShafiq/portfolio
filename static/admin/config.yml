@@ -43,7 +43,7 @@ collections:
         widget: list
         fields:
           - { label: 'Caption (Will be shown on home page hover)', name: 'caption', widget: 'string'}
-          - { label: 'Subcaption (Will be shown under the caption on hover)', name: 'subcaption', widget: 'string'}
+          - { label: 'Subcaption (Will be shown under the caption on hover)', name: 'subcaption', widget: 'string', required: false}
           - { label: 'Image', name: 'image', widget: 'image'}
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
   - label: "Pages"

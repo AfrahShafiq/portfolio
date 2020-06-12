@@ -4,8 +4,10 @@ date: 2020-06-03 12:14
 featuredImage:
   - image: /assets/sultana_s-reality.gif
     caption: Sultana's Reality
+    subcaption: HELLO
   - caption: Test Sultana Image
     image: /assets/alex-zr48yvupk04-unsplash.jpg
+    subcaption: ""
 feature: /assets/a-book-is-a-door.jpg
 template: blog-post
 title: Sultana's Reality
