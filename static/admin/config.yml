@@ -75,6 +75,8 @@ collections:
         - {label: "Template", name: "template", widget: "hidden", default: "about-page" }
         - {label: "Slug", name: "slug", widget: "hidden", default: "/about" }
         - {label: "Title", name: "title", widget: "string"}
+        - {label: "Profile Photo", name: "image", widget: "image"}
+        - {label: "CV (Do not forget to add https://)", name: "cv", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
       - label: "Contact"
         name: "contact"

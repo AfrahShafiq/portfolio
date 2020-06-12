@@ -11,6 +11,58 @@
 	min-height: calc(100vh - 60px - 81px);
 }
 
+.about {
+
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 0px !important;
+
+	.aboutPhoto {
+		flex: 30%;
+		margin-top: 18px;
+		padding-right: 18px;
+
+		p {
+			text-align: center;
+		}
+	}
+	
+	.aboutContent {
+		flex: 70%;
+	}
+
+	.aboutForm {
+		margin-top: 36px;
+		label {
+			color: var(--label-text);
+		}
+		input,
+		textarea {
+			width: 100%;
+			max-width: 100%;
+			margin: 8px 0 8px;
+			padding: 12px;
+			border: 2px solid #ddb2b2;
+			border-radius: 12px;
+			appearance: none;
+			&:focus {
+				border-color: var(--input-focus-border);
+			}
+		}
+		textarea {
+			min-height: 200px;
+		}
+	}
+}
+@media screen and (max-width: 700px) {
+	.about {   
+		flex-direction: column;
+	}
+	.aboutPhoto {
+		align-self: center;
+	}
+}
+
 .crux {
 	color: #ddb2b2;
 }
@@ -189,8 +241,7 @@ body {
 	.grids {
 		padding-bottom: 30px;
 	}
-	padding-bottom: 100px;
-	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .homeBanner {
 	height: 20vh;
@@ -403,7 +454,6 @@ article img {
 .contact-page,
 .thanks-page,
 .not-found-page {
-	padding: 50px 20px;
 	.wrapper {
 		max-width: 768px;
 		margin: 0 auto;
