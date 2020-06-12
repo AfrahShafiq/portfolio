@@ -95,6 +95,22 @@ collections:
         - {label: "Slug", name: "slug", widget: "hidden", default: "/contact" }
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Production"
+        name: "production"
+        file: "src/content/pages/production.md"
+        fields:
+        - {label: "Template", name: "template", widget: "hidden", default: "production-page" }
+        - {label: "Slug", name: "slug", widget: "hidden", default: "/production" }
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+        - label: 'Image'
+          label_singular: "Image"
+          name: 'clients'
+          widget: list
+          fields:
+            - { label: URL (don't forget to add https://, name: 'url', widget: 'string'}
+            - { label: 'Logo (Client Logo)', name: 'logo', widget: 'image'}
+          
   - name: settings
     label: Settings
     files:

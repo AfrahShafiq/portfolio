@@ -84,8 +84,13 @@ exports.createSchemaCustomization = ({ actions }) => {
       subcaption: String
       image: File @fileByRelativePath
     }
+    type client implements Node {
+      url: String
+      logo: File @fileByRelativePath
+    }
     type Frontmatter {
       featuredImage: [fImage]!
+      clients: [client]!
     }
   `
   createTypes(typeDefs)
