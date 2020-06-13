@@ -27,7 +27,7 @@ const Layout = ({banner, children, className}) => {
     <div className="primary-container">
       <div className={banner}></div>
       <Header>
-        <Logo title={siteTitle} />
+        {/* <Logo title={siteTitle} /> */}
         <Navigation/>
       </Header>
       <main className={"container " + className}>
