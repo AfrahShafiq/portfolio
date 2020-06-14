@@ -87,7 +87,7 @@ class Navigation extends React.Component {
             <input type="checkbox" id="drop-2"/>
             <ul>
                 <li><a href="/about">bio + cv</a></li>
-                <li><a href="/about">contact</a></li>
+                <li><a href="/press">press</a></li>
             </ul>
           </li>
         </ul>

@@ -21,8 +21,8 @@ nav {
 
 #logo {
 	display: block;
-	padding: 0 30px;
-	float: left;
+  float: left;
+  text-align: start;
 }
 
 /* Since we'll have the "ul li" "float:left"
