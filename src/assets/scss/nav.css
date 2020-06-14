@@ -145,7 +145,9 @@ li > a:only-child:after { content: ''; }
 
 	/* Display Dropdown when clicked on Parent Lable */
 	[id^=drop]:checked + ul {
-		display: block;
+    display: block;
+    width: 90%;
+    float: right;
 	}
 
 	/* Change menu item's width to 100% */
