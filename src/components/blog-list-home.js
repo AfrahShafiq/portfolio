@@ -49,12 +49,9 @@ export default function BlogListHome() {
       }
 
       render={ data => {
-          console.log(data)
           let tempData = data.allMarkdownRemark.edges
-          console.log(tempData)
           let tempPosts = []
           tempData.forEach(edge => {
-            console.log(edge)
             if(edge.node.frontmatter.featuredImage.length === 1)
               tempPosts.push({
                 ...edge.node,
@@ -72,7 +69,6 @@ export default function BlogListHome() {
                 )
               }
           })
-          console.log(tempPosts)
           const posts = tempPosts
             .filter(node => !!  node.frontmatter.date)
             .map(node => 
@@ -80,7 +76,6 @@ export default function BlogListHome() {
                   return <PostCard key={node.id} data={node} thumbnail={node.thumbnail} />
               }
           )
-          console.log(posts)
           return <PostMaker data={posts} />
         } 
       }

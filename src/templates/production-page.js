@@ -29,11 +29,9 @@ const ProductionPage = ({data}) => {
       return <a href={client.url}><img src={client.logo.publicURL}/></a>
     }
   )
-  console.log(clientSection)
 	return (
       <Layout banner="productionBanner">
         <SEO/>
-        {console.log(data.markdownRemark.frontmatter.clients)}
         <h1 className='crux'>PRODUCTION</h1>
         <article dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         {/* <BlogListProduction/> */}
