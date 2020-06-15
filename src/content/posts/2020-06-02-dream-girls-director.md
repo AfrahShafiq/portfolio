@@ -4,10 +4,11 @@ title: "Dream Girls - Director "
 category: film
 home: true
 slug: /dreamgirls
-date: 2020-06-02 16:29
+date: 2020-06-06 14:29
 description: "Dream Girls - Director "
-featuredImage: 
+featuredImage:
   - image: /assets/dream-girls-_-director-.jpg
-    caption: Dream 
+    caption: Dream Girls
+    subcaption: FILM & VIDEO
 ---
 Dream Girls - Director

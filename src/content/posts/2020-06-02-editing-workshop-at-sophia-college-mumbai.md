@@ -4,10 +4,11 @@ title: Editing Workshop at Sophia College Mumbai
 category: workshop
 home: true
 slug: /sophiacollege
-date: 2020-06-02 16:47
+date: 2020-06-06 15:47
 description: Editing Workshop at Sophia College Mumbai
-featuredImage: 
+featuredImage:
   - image: /assets/editing-workshop-at-sophia-college-mumbai.jpg
-    caption: Workshop at Sophia College
+    caption: Sophia College Documentary Editing
+    subcaption: WORKSHOP
 ---
 Editing Workshop at Sophia College Mumbai

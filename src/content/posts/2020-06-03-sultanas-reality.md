@@ -1,13 +1,16 @@
 ---
 slug: /sultanas_reality
-date: 2020-06-03 12:14
+date: 2020-06-11 22:07
 featuredImage:
   - image: /assets/sultana_s-reality.gif
     caption: Sultana's Reality
-    subcaption: HELLO
-  - caption: Test Sultana Image
-    image: /assets/alex-zr48yvupk04-unsplash.jpg
-    subcaption: ""
+    subcaption: ART
+  - caption: Sultana's Reality
+    subcaption: ART
+    image: /assets/sultana_s-reality-kochi-muziris-biennale-_-art.jpg
+  - caption: Sultana's Reality
+    subcaption: ART
+    image: /assets/sultanas-reality-_-art.jpg
 feature: /assets/a-book-is-a-door.jpg
 template: blog-post
 title: Sultana's Reality

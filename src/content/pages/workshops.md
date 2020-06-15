@@ -6,4 +6,5 @@ tagline: Graphic Designer
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 
 ---
-Custom made workshops for any audience on making by hand as a way to explore the self. I also teach video editing/digital storytelling. Contact for enquiries.
+custom made workshops on making by hand as a way to explore the self.
+i also teach video editing/digital storytelling. contact for enquiries.

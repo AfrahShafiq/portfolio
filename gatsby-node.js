@@ -1,6 +1,29 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+    type fImage implements Node {
+      caption: String
+      subcaption: String
+      image: File @fileByRelativePath
+    }
+    type client implements Node {
+      url: String
+      logo: File @fileByRelativePath
+    }
+    type Frontmatter {
+      featuredImage: [fImage]!
+      clients: [client]!
+    }
+  `
+  createTypes(typeDefs)
+}
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
@@ -71,29 +94,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     })
   })
 
-}
-
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions
-  const typeDefs = `
-    type MarkdownRemark implements Node {
-      frontmatter: Frontmatter
-    }
-    type fImage implements Node {
-      caption: String
-      subcaption: String
-      image: File @fileByRelativePath
-    }
-    type client implements Node {
-      url: String
-      logo: File @fileByRelativePath
-    }
-    type Frontmatter {
-      featuredImage: [fImage]!
-      clients: [client]!
-    }
-  `
-  createTypes(typeDefs)
 }
 
 exports.onCreateNode = ({ node, getNode, actions }) => {

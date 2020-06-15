@@ -4,10 +4,11 @@ title: A book is a Door
 category: art
 home: true
 slug: /book_is_a_door
-date: 2020-06-03 12:12
-description: A book is a Door
-featuredImage: 
+date: 2020-06-08 12:12
+description: A Womb of One's Own
+featuredImage:
   - image: /assets/a-book-is-a-door.jpg
-    caption: A book is a door
+    caption: A Womb of One's Own
+    subcaption: ART
 ---
 A book is a Door
