@@ -62,7 +62,7 @@ const Post = ({ data, pageContext }) => {
               className="featured-image"
             />
           ) : ""} */}
-          {!!frontmatter.featuredImage && !!frontmatter.featuredImage.childImageSharp ? 
+          {/* {!!frontmatter.featuredImage && !!frontmatter.featuredImage.childImageSharp ? 
             (
                 <Img 
                   fluid={frontmatter.featuredImage[0].childImageSharp.fluid} 
@@ -77,7 +77,7 @@ const Post = ({ data, pageContext }) => {
                   objectFit="cover"
                   objectPosition="50% 50%"
                 />
-          }
+          } */}
         </header>
         
         <div

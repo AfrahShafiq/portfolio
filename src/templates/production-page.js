@@ -26,7 +26,7 @@ export const pageQuery = graphql`
 const ProductionPage = ({data}) => {
   const clientSection = data.markdownRemark.frontmatter.clients.map(
     client => {
-      return <a href={client.url}><img src={client.logo.publicURL}/></a>
+      return <a href={client.url} target='_blank'><img src={client.logo.publicURL}/></a>
     }
   )
 	return (
