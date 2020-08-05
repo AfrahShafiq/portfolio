@@ -52,25 +52,25 @@ const AboutPage = ({ data }) => {
 				</div>
 				<div className="aboutContent">
 					<article dangerouslySetInnerHTML={{ __html: html }} />
-					<br/>
-					<form className="aboutForm" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-						<input type="hidden" name="form-name" value="contact" />
-						<p>
-							<label>Name<input type="text" name="name" /></label>   
-						</p>
-						<p>
-							<label>Email<input type="email" name="email" /></label>
-						</p>
-						<p>
-							<label>Subject<input type="text" name="subject" /></label>   
-						</p>
-						<p>
-							<label>Message<textarea name="message"></textarea></label>
-						</p>
-						<p>
-							<button className="button" type="submit">Send Message <span className="icon -right"><RiSendPlane2Line/></span></button>
-						</p>
-					</form>
+// 					<br/>
+// 					<form className="aboutForm" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+// 						<input type="hidden" name="form-name" value="contact" />
+// 						<p>
+// 							<label>Name<input type="text" name="name" /></label>   
+// 						</p>
+// 						<p>
+// 							<label>Email<input type="email" name="email" /></label>
+// 						</p>
+// 						<p>
+// 							<label>Subject<input type="text" name="subject" /></label>   
+// 						</p>
+// 						<p>
+// 							<label>Message<textarea name="message"></textarea></label>
+// 						</p>
+// 						<p>
+// 							<button className="button" type="submit">Send Message <span className="icon -right"><RiSendPlane2Line/></span></button>
+// 						</p>
+// 					</form>
 				</div>
 			</div>
 		</Layout>
