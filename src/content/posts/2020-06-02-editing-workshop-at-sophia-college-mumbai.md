@@ -5,10 +5,14 @@ category: workshop
 home: true
 slug: /sophiacollege
 date: 2020-06-06 15:47
-description: Editing Workshop at Sophia College Mumbai
+description: |+
+  Editing Workshop at Sophia College Mumbai
+
 featuredImage:
   - image: /assets/editing-workshop-at-sophia-college-mumbai.jpg
     caption: Sophia College Documentary Editing
     subcaption: WORKSHOP
 ---
 Editing Workshop at Sophia College Mumbai
+
+Taught video editing through a one month workshop where the three student groups made a short documentary each as part of the Sophia Polytechnic Mumbai’s Social Communication Media course in 2018.
