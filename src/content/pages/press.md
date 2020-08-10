@@ -5,8 +5,9 @@ title: Press
 ---
 # 2020
 
-[In Conversation with Artists from Shrine Empire’s ‘Speculations on a New World Order’](https://www.artfervour.com/post/in-conversation-with-artists-from-shrine-empire-s-speculations-on-a-new-world-order) Art Fervour, May 2020
+[18 creatives share why they made Goa their home](https://www.vogue.in/magazine-story/18-creatives-share-why-they-made-goa-their-home/) Vogue Magazine, July 2020
 
+[In Conversation with Artists from Shrine Empire’s ‘Speculations on a New World Order’](https://www.artfervour.com/post/in-conversation-with-artists-from-shrine-empire-s-speculations-on-a-new-world-order) Art Fervour, May 2020
 
 [Animating the Archive](https://garage.digital/en/animating-the-archive), Garage Digital, May 2020
 
