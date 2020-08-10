@@ -17,3 +17,5 @@ featuredImage:
 A printable chart on the dangers of over using the emergency contraceptive pill commissioned for [Agents of Ishq](http://www.agentsofishq.com). 
 
 This info graphic was republished on [Youth Ki Awaaz](http://www.youthkiawaaz.com/2016/03/things-you-must-know-about-emergency-contraceptive-pills/), [Asian Net News](http://newsable.asianetnews.tv/home-page/agents-of-ishq) and [Raiot.in](http://raiot.in/not-such-a-chill-pill-things-you-need-to-know-about-the-morning-after-pill/).
+
+![](/assets/emc-final2.jpg)
