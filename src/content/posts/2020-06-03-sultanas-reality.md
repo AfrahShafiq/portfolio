@@ -1,6 +1,10 @@
 ---
+template: blog-post
+title: Sultana's Reality
+category: art
+home: true
 slug: /sultanas-reality
-date: 2020-06-11 22:07
+date: 2017-12-01 00:00
 featuredImage:
   - image: /assets/sultana_s-reality.gif
     caption: Sultana's Reality
@@ -12,13 +16,11 @@ featuredImage:
     subcaption: ART
     image: /assets/sultanas-reality-_-art.jpg
 feature: /assets/a-book-is-a-door.jpg
-template: blog-post
-title: Sultana's Reality
-category: art
-home: true
 description: Sultana's Reality
 ---
-SULTANA’S REALITY 2017 | INTERACTIVE MULTIMEDIA INSTALLATION Online version at www.entersultanasreality.com
+SULTANA’S REALITY 2017 | INTERACTIVE MULTIMEDIA INSTALLATION 
+
+View the beta version at www.entersultanasreality.com
 
 <iframe src="https://player.vimeo.com/video/176562149" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -32,13 +34,9 @@ Sultana’s Reality is an interactive multimedia story that explores the relatio
 
 If it’s said that well-behaved women seldom make history,  why is it that our history textbooks rarely have women behaving ‘badly’?  Are the readers forgetting certain kinds of books  or are the writers forgetting certain kinds of stories?
 
-
-
 ![](/assets/Copy of Sultana_s Reality Still 2.jpg)
 
-Drawing its title from Sultana’s Dream, the 1905 science-fiction short story of feminist utopia, by Begum Rokeya Sakhawat Hossein, Sultana’s Reality explores the inner lives of the first generation of women to be educated in pre-independent India. 
-
-
+Drawing its title from Sultana’s Dream, the 1905 science-fiction short story of feminist utopia by Begum Rokeya Sakhawat Hossein, Sultana’s Reality explores the inner lives of the first generation of women to be educated in pre-independent India. 
 
 ![](/assets/Copy of Sultana_s Reality Still 1.jpg)
 
