@@ -13,8 +13,6 @@ featuredImage:
     caption: Sophia College Documentary Editing
     subcaption: WORKSHOP
 ---
-Editing Workshop at Sophia College Mumbai
-
 Taught video editing through a one month workshop where the three student groups made a short documentary each as part of the Sophia Polytechnic Mumbai’s Social Communication Media course in 2018.
 
 <iframe src="https://www.youtube.com/watch?v=ZQGCMjnDbjQ" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
