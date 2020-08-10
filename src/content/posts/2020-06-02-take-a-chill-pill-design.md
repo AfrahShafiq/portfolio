@@ -8,7 +8,7 @@ date: 2020-06-02 20:02
 description: morning after pill ipill emergency contraceptive
 featuredImage:
   - image: /assets/take-a-chill-pill-_-design.jpg
-    caption: Take a Chill Pill DESIGN
+    caption: Take a Chill Pill        DESIGN
   - image: /assets/emc-final2.jpg
     caption: "NOT SUCH A CHILL PILL "
 ---
