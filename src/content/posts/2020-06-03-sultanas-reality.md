@@ -20,7 +20,7 @@ description: Sultana's Reality
 ---
 SULTANA’S REALITY 2017 | INTERACTIVE MULTIMEDIA INSTALLATION 
 
-View the beta version at www.entersultanasreality.com
+View the beta version at[ www.entersultanasreality.com](www.entersultanasreality.com)
 
 <iframe src="https://player.vimeo.com/video/176562149" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
