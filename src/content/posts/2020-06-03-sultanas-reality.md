@@ -4,7 +4,7 @@ title: Sultana's Reality
 category: art
 home: true
 slug: /sultanas-reality
-date: 2017-12-01 00:00
+date: 2020-08-10 20:02
 featuredImage:
   - image: /assets/sultana_s-reality.gif
     caption: Sultana's Reality
