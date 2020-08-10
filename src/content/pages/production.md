@@ -21,10 +21,6 @@ clients:
   - url: https://www.thefilmfarmers.com/
     logo: /assets/download.png
 ---
-production services for video/tech art and non-fiction film &amp; video productions (research, permits, location recce, line production, translation, fixing, post production, tech,
-install)
+production services for video/tech art and non-fiction film &amp; video productions (research, permits, location recce, line production, translation, fixing, post production, tech, install)
 
 contact for enquiries and references
-
-
-Our Clients :
