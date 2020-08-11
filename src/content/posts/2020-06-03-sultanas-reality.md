@@ -52,7 +52,7 @@ The story is told through animated video, graphics, gif’s, comics, collages an
 
 This work was made possible by an Archival and Museum Fellowship by India Foundation for the Arts at the Centre for Studies in Social Sciences, Calcutta, with support from Voltas Limited.
 
-[Download Poster](https://www.google.com)
+[Download Poster](https://drive.google.com/file/d/1PHntKcHRNfelHhUfi7RWQ5FQbuIVkt-s/view?usp=sharing)
 
 EXHIBITION HISTORY
 
