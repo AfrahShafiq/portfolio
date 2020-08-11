@@ -11,4 +11,8 @@ featuredImage:
     caption: CREA Reconference
     subcaption: ILLUSTRATION
 ---
-Crea Reconference Mascot Series - Illustration
+Crea invited five different South Asian artists to make a hand drawn bird-creature, and put together a flock of fearless, interrogative, edgy, sexy flock of birds flying freely as mascots for the CREA RECONFERENCE in Kathmandu. This was mine. 
+
+![](/assets/crea-reconference-mascot-series-_-illustration.jpg)
+
+![](/assets/nairobi-principle-reports.png)
