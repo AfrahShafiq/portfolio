@@ -22,7 +22,7 @@ SULTANA’S REALITY 2017 | INTERACTIVE MULTIMEDIA INSTALLATION
 
 View the beta version at[ www.entersultanasreality.com](www.entersultanasreality.com)
 
-<iframe src="https://player.vimeo.com/video/176562149" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/176562149" width="512" height="588" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Sultana’s Reality is an interactive multimedia story that explores the relationship between women and the colonial education movement in India using archival imagery, women’s writing and history.
 
