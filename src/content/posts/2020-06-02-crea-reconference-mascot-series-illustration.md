@@ -11,8 +11,8 @@ featuredImage:
     caption: CREA Reconference
     subcaption: ILLUSTRATION
 ---
-Crea invited five different South Asian artists to make a hand drawn bird-creature, and put together a flock of fearless, interrogative, edgy, sexy flock of birds flying freely as mascots for the CREA RECONFERENCE in Kathmandu. This was mine. 
+ A few South Asian artists were commissioned by CREA to make a hand drawn bird-creature each so they could put together a flock of fearless, interrogative, edgy, sexy birds flying freely as mascots for the [CREA RECONFERENCE](https://reconference.creaworld.org/) in Kathmandu. This one was mine. 
 
-![](/assets/crea-reconference-mascot-series-_-illustration.jpg)
+![](/assets/books-bird-woman-bg-2.jpg)
 
-![](/assets/nairobi-principle-reports.png)
+![](/assets/screen-shot-2020-08-18-at-9.12.16-pm.png)

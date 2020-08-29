@@ -11,4 +11,24 @@ featuredImage:
     caption: The Digital Witch
     subcaption: ILLUSTRATION
 ---
-Witching Archetypes - Illustration
+What would magical marketing archetypes look like? A series of character development and illustrations for [The Digital Witch](http://www.thedigitalwitch.com/).
+
+<br>
+
+![](/assets/explorer.jpg)
+
+
+
+![](/assets/hero.jpg)
+
+![](/assets/rebel.jpg)
+
+![](/assets/creator.jpg)
+
+![](/assets/ruler.jpg)
+
+![](/assets/wsedfgh.jpg)
+
+![](/assets/nurturer.jpg)
+
+![](/assets/magician.jpg)

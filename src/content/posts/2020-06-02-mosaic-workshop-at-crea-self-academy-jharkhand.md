@@ -11,4 +11,6 @@ featuredImage:
     caption: Mosaicing the Self
     subcaption: WORKSHOP
 ---
-Mosaic Workshop at Crea Self Academy Jharkhand
+Conducted a three day workshop at [CREA's SELF ACADEMY](https://www.creaworld.org/events/crea-organises-its-first-self-academy-sports-empowerment-leadership-and-freedom-young-girls) in Jharkhand with a group of fifty adolescent girls, where through the workshop each girl made a mosaic mirror that was an expression of the way they would like themselves to be seen, as opposed to how others saw them. 
+
+![](/assets/img_20151230_201924.jpg)

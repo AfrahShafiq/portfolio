@@ -11,4 +11,8 @@ featuredImage:
     caption: If Rani Mukherji...
     subcaption: ILLUSTRATION
 ---
-If Rani Mukherji... - Illustration + Design
+Drawing from an old school storybook lettering style scroll, this is an Illustration for a lesbian fantasy about Rani Mukherji written by Kaash published on [Agents of Ishq](www.agentsofishq.com). 
+
+
+
+![](/assets/rm-final-english.jpg)
