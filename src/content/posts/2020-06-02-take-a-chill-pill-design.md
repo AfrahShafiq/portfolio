@@ -8,10 +8,12 @@ date: 2020-06-02 20:02
 description: morning after pill ipill emergency contraceptive
 featuredImage:
   - image: /assets/take-a-chill-pill-_-design.jpg
-    caption: Take a Chill Pill        DESIGN
+    caption: Take a Chill Pill
+    subcaption: DESIGN
   - image: /assets/emc-final2.jpg
     caption: "NOT SUCH A CHILL PILL "
 ---
+\
 **Not Such a Chill Pill!** 
 
 A printable chart on the dangers of over using the emergency contraceptive pill commissioned for [Agents of Ishq](http://www.agentsofishq.com). 

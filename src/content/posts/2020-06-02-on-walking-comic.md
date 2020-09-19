@@ -8,7 +8,8 @@ date: 2020-06-02 19:58
 description: On walking - Comic
 featuredImage:
   - image: /assets/on-walking-_-comic.jpg
-    caption: Walking is More COMIC
+    caption: Walking is More
+    subcaption: COMIC
 ---
 A visual essay that looks back at seminal acts of walking to make sense of the direction in which a nation is moving : made at the beginning of the corona virus lockdown in India for [Women on Aeroplanes](http://woa.kein.org/about) INFLIGHT MAGAZINE 05 +++
 

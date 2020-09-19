@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import ClientListProduction from "../components/client-list-production"
 import SEO from "../components/seo"
 import { graphql } from "gatsby"
 
@@ -26,7 +25,7 @@ export const pageQuery = graphql`
 const ProductionPage = ({data}) => {
   const clientSection = data.markdownRemark.frontmatter.clients.map(
     client => {
-      return <a href={client.url} target='_blank'><img src={client.logo.publicURL}/></a>
+      return <a href={client.url} target='_blank' rel="noreferrer"><img alt="" src={client.logo.publicURL}/></a>
     }
   )
 	return (

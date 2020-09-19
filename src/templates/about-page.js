@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
-import {RiSendPlane2Line} from "react-icons/ri";
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!){

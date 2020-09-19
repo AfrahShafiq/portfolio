@@ -1,8 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import '../assets/scss/nav.css'
-import Logo from "./logo"
+
 
 const MenuItems = [
   {
@@ -71,10 +70,10 @@ class Navigation extends React.Component {
             <input type="checkbox" id="drop-1"/>
             <ul>
               <li><Link to={'/art'}>art</Link></li>
-              <li><Link to={'/cid'}>comics</Link></li>
-              <li><Link to={'/cid'}>illustrations</Link></li>
+              <li><Link to={'/cid'}>comics | illustrations | design | animation</Link></li>
+              {/* <li><Link to={'/cid'}>illustrations</Link></li>
               <li><Link to={'/cid'}>design</Link></li>
-              <li><Link to={'/cid'}>animation</Link></li>
+              <li><Link to={'/cid'}>animation</Link></li> */}
               <li><Link to={'/film'}>film & video</Link></li>
               <li><Link to={'/workshops'}>teaching & workshop</Link></li>
               <li><Link to={'/production'}>production</Link></li>

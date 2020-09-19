@@ -26,7 +26,7 @@ const AboutPage = ({ data }) => {
 				title={frontmatter.title}
 				description={excerpt}
 			/>
-			<base target="_blank"/>
+			<base target="_blank" rel="noreferrer"/>
 			<div >
 				<article className='press' dangerouslySetInnerHTML={{ __html: html }} />
 			</div>

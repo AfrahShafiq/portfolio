@@ -1,15 +1,4 @@
 import React from "react"
-import { StaticQuery, graphql } from "gatsby"
-
-import PostCard from "./post-card"
-
-const PostMaker = ({ data }) => (
-  <section className="posts">
-    <div className="grids col-1 sm-2 lg-4">
-      {data}
-    </div>
-  </section>
-)
 
 export default function ClientListProduction() {
   return (
