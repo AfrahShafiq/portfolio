@@ -19,6 +19,4 @@ This piece was republished on The Ladies Finger and also printed in the closing 
 
 The first season of Deep Dives - Sexing the Interwebs that this piece was a part of, won the South Asian Laadli Media Award for Gender Sensitivity 2017 in the “Best web series/Special edition” category. 
 
-
-
-![](/assets/replacement-upload.gif)
+![](/assets/searching.gif)
