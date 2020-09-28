@@ -4,6 +4,9 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Img from "gatsby-image"
+import tumblrIcon from '../assets/img/tumblr.png'
+import instaIcon from '../assets/img/instagram.png'
+import vimeoIcon from '../assets/img/vimeo.png'
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!){
@@ -45,8 +48,25 @@ const AboutPage = ({ data }) => {
             objectPosition="50% 50%"
             alt={frontmatter.title + ' - Featured image'}
           />
+					<div className='socialIconsDiv'>
+						<a href='https://www.instagram.com/loveandotheroutdoorgames/'>
+							<img className='socialIcons'
+								src={instaIcon}
+							/>
+						</a>
+						<a href='https://loveandotheroutdoorgames.tumblr.com/'>
+							<img className='socialIcons'
+								src={tumblrIcon}
+							/>
+						</a>
+						<a href='https://vimeo.com/user3821907'>
+							<img className='socialIcons'
+								src={vimeoIcon}
+							/>
+						</a>
+					</div>
 					<p>
-						<a href={frontmatter.cv}>cv + bio</a>
+						<a target="_blank" rel="noreferrer" href={frontmatter.cv}>cv + bio</a>
 					</p>
 				</div>
 				<div className="aboutContent">
@@ -72,6 +92,7 @@ const AboutPage = ({ data }) => {
 						</p>
 					</form>
 		*/}
+					<a className='center' href="https://afrahshafiq.typeform.com/to/HG0oirKM" target="_blank" rel="noreferrer"><button className="button">Contact Me</button></a>
 				</div>
 			</div>
 		</Layout>

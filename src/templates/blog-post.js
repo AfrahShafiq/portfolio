@@ -46,6 +46,7 @@ const Post = ({ data, pageContext }) => {
         image={frontmatter.featuredImage.childImageSharp}
         article={true}
       />
+      <base target="_blank" rel="noreferrer"/>
       <article className="blog-post">
         <header className="featured-banner">
           <section className="article-header">
