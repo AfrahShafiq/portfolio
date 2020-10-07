@@ -26,12 +26,3 @@ clients:
 I work as a producer on art and film projects facilitating various stages and requirements right from research, permits, location recces, line production and fixing to post production, translation and subtitling, tech R&D, event management & install. 
 
 These are some of the artists/companies I have worked with. 
-
-\
-Shilpa Gupta - AAA
-
-Tejal Shah - Between the Waves, Some Kind of Nature
-
-Parodevi Pictures - Connected Hum Tum, Partners in Crime
-
-Majlis - Cinema City: Women's Viewing Project, Timeline; Broadband

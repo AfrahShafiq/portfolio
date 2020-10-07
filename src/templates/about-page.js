@@ -49,17 +49,17 @@ const AboutPage = ({ data }) => {
             alt={frontmatter.title + ' - Featured image'}
           />
 					<div className='socialIconsDiv'>
-						<a href='https://www.instagram.com/loveandotheroutdoorgames/'>
+						<a target="_blank" rel="noreferrer" href='https://www.instagram.com/loveandotheroutdoorgames/'>
 							<img className='socialIcons'
 								src={instaIcon}
 							/>
 						</a>
-						<a href='https://loveandotheroutdoorgames.tumblr.com/'>
+						<a target="_blank" rel="noreferrer" href='https://loveandotheroutdoorgames.tumblr.com/'>
 							<img className='socialIcons'
 								src={tumblrIcon}
 							/>
 						</a>
-						<a href='https://vimeo.com/user3821907'>
+						<a target="_blank" rel="noreferrer" href='https://vimeo.com/user3821907'>
 							<img className='socialIcons'
 								src={vimeoIcon}
 							/>
@@ -92,7 +92,7 @@ const AboutPage = ({ data }) => {
 						</p>
 					</form>
 		*/}
-					<a className='center' href="https://afrahshafiq.typeform.com/to/HG0oirKM" target="_blank" rel="noreferrer"><button className="button">Contact Me</button></a>
+					<a className='center' href="https://afrahshafiq.typeform.com/to/HG0oirKM" target="_blank" rel="noreferrer"><button className="button smallBtn">Contact Me</button></a>
 				</div>
 			</div>
 		</Layout>
