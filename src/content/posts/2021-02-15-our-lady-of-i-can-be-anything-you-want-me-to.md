@@ -29,6 +29,6 @@ EXHIBITION HISTORY
 
 FRIN/GE, Group Show at Vadehra Art Gallery, New Delhi, Curated by Shaleen Wadhwana
 
-![](/assets/1.gif)
+![](/assets/1.gif "The Mother Board Remembers (video still) ")
 
 ![](/assets/install-view-vadehra.jpg "Installation View, Vadehra Art Gallery ")
