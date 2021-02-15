@@ -22,7 +22,9 @@ clients:
     logo: /assets/download.png
   - logo: /assets/diff-logo.png
     url: https://diff.co.in/
+  - url: https://creaworld.org/
+    logo: /assets/crea-logo.png
 ---
 I work as a producer on art and film projects facilitating various stages and requirements right from research, permits, location recces, line production and fixing to post production, translation and subtitling, tech R&D, event management & install. 
 
-These are some of the artists/companies/projects I have worked with.
+These are some of the companies I have worked with.
