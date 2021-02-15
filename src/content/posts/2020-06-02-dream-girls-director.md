@@ -17,4 +17,4 @@ Dream Girls was made as response to the December 16, 2012 Delhi gang rape and th
 
 This film was commissioned by Grist Media for Yahoo originals. 
 
-<iframe width='640' height='360' scrolling='no' frameborder='0' src='https://www.yahoo.com/news/video/dream-girls-110406079.html?format=embed' allowfullscreen='true' mozallowfullscreen='true' webkitallowfullscreen='true' allowtransparency='true' allow='autoplay; fullscreen; encrypted-media'></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/141410072" width="640" height="360" frameborder="0" allowfullscreen></iframe>
