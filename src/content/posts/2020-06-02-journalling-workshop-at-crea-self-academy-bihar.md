@@ -15,7 +15,7 @@ Conducted a three day workshop at [CREA's SELF ACADEMY](https://www.creaworld.or
 
 These are some examples of what the participants made as the first journal entry introducing themselves. 
 
-![](/assets/img_20161204_202935.jpg "i am in love with flowers")
+![](/assets/img_20161204_202935-smaller.jpg "i am in love with flowers")
 
 ![](/assets/img_20161205_102058.jpg "i want to go into space")
 
