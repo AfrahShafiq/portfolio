@@ -10,7 +10,7 @@ featuredImage:
   - image: /assets/today-my-mother-came-home-_-illustration.gif
     caption: TODAY MY MOTHER CAME HOME
 ---
-Animated illustrations for a personal testimony by Devdutt Patnaik, made for [Agents of Ishq.](http://agentsofishq.com/today-my-mother-came-home/)\
+Animated illustrations for a personal testimony by Devdutt Patnaik, made for [Agents of Ishq.](http://agentsofishq.com/today-my-mother-came-home/)
 
 
 
