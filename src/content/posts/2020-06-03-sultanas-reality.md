@@ -58,11 +58,11 @@ EXHIBITION HISTORY
 
 **2021**
 
-Meet Factory, Gallery Kostka, Prague, curated by Eva Riebová
+Meet Factory, Gallery Kostka, curated by Eva Riebová, Prague
 
 **2020**
 
-Lahore Biennial, curated by Hoor Al Qasimi
+Lahore Biennial, curated by Hoor Al Qasimi, Lahore.
 
 **2019**
 
