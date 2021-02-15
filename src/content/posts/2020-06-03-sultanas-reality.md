@@ -19,7 +19,8 @@ feature: /assets/a-book-is-a-door.jpg
 description: Sultana's Reality
 ---
 # SULTANA’S REALITY
-2017 | INTERACTIVE MULTIMEDIA INSTALLATION  
+
+##### 2017 | INTERACTIVE MULTIMEDIA INSTALLATION
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/176562149?autoplay=1&color=ddb2b2&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
@@ -54,6 +55,10 @@ This work was made possible by an Archival and Museum Fellowship by India Founda
 View the work online at [www.entersultanasreality.com](https://www.entersultanasreality.com)
 
 EXHIBITION HISTORY
+
+**2021**
+
+Meet Factory, Gallery Kostka, Prague, curated by Eva Riebová
 
 **2020**
 
