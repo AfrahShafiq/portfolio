@@ -5,6 +5,10 @@ title: Press
 ---
 # 2020
 
+[A confluence of stories](https://www.navhindtimes.in/2021/02/10/magazines/buzz/a-confluence-of-stories/), Navhind Times, Feb 2021
+
+[](https://www.navhindtimes.in/2021/02/10/magazines/buzz/a-confluence-of-stories/)[The curious case of Afrah Shafiq](https://open.spotify.com/episode/5SBe92xnwRvaJWYTUzF1PE?si=hWGuO11dR9yVzzI7Zv5GXw), podcast, in conversation with curator of Meet Factory Eva Riebová, Feb 2021
+
 [18 creatives share why they made Goa their home](https://www.vogue.in/magazine-story/18-creatives-share-why-they-made-goa-their-home/) Vogue Magazine, July 2020
 
 [In Conversation with Artists from Shrine Empire’s ‘Speculations on a New World Order’](https://www.artfervour.com/post/in-conversation-with-artists-from-shrine-empire-s-speculations-on-a-new-world-order) Art Fervour, May 2020
