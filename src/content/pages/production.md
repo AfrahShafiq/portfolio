@@ -8,9 +8,9 @@ clients:
     logo: /assets/0.png
   - url: https://whataboutart.net/
     logo: /assets/17505106_1442466532491530_5397351398140264881_o.jpg
-  - url: https://www.differenttrains1947.com/
-    logo: /assets/fb_share.jpg
   - url: https://www.tba21.org/#item--Kochi--1533
+    logo: /assets/fb_share.jpg
+  - url: https://www.differenttrains1947.com/
     logo: /assets/download.jpeg
   - url: http://backpackfilms.in/#our-films
     logo: /assets/49697080_2019759678108127_7964070535992705024_n.jpg
@@ -25,4 +25,4 @@ clients:
 ---
 I work as a producer on art and film projects facilitating various stages and requirements right from research, permits, location recces, line production and fixing to post production, translation and subtitling, tech R&D, event management & install. 
 
-These are some of the artists/companies I have worked with. 
+These are some of the artists/companies/projects I have worked with.
