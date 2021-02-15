@@ -13,7 +13,7 @@ featuredImage:
     caption: Documentary Editing
     subcaption: WORKSHOP
 ---
-A one month documentary video editing workshop at Sophia College Mumbai, where three student groups made a short documentary each as part of the Social Communication Media course in 2018.
+A one month documentary video editing workshop at Sophia College Mumbai, where three student groups made a short documentary each on the works of artist Mehlli Gobhai as part of the Social Communication Media course in 2018.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LZTMNzqrjzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
