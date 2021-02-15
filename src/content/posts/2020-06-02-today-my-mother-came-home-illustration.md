@@ -11,4 +11,4 @@ featuredImage:
     caption: Today My Mother Came Home
     subcaption: ILLUSTRATION
 ---
-Today my Mother Came Home - Illustration
+Animated illustrations for a personal testimony by Devdutt Patnaik, made for [Agents of Ishq.](http://agentsofishq.com/today-my-mother-came-home/)
