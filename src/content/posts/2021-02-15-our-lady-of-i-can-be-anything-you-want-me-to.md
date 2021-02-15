@@ -23,7 +23,7 @@ Our Lady Of I Can Be Anything You Want Me To
 
 This interactive and continually morphing work explores the multiplicity and diversity of the Marian figure all over the world while contemplating icon making, data vs insight, the logic of generative adversarial networks and what it means to be a container for different and contradictory ideas to freely converge. 
 
-Preview at [www.ourladyoficanbeanythingyouwantmeto.com](www.ourladyoficanbeanythingyouwantmeto.com)
+Preview at [www.ourladyoficanbeanythingyouwantmeto.com](https://ourladyoficanbeanythingyouwantmeto.com)
 
 EXHIBITION HISTORY
 
