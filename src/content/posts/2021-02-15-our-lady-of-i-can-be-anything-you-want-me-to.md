@@ -13,7 +13,7 @@ description: |
 featuredImage:
   - image: /assets/3.jpg
     caption: Our Lady Of
-    subcaption: ""
+    subcaption: ART
 ---
 Our Lady Of I Can Be Anything You Want Me To
 
